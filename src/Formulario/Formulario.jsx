@@ -1,9 +1,13 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
+import riesgosAsesor from "../utils/riesgosAsesor.json"
+
+import Swal from 'sweetalert2'
+
 export function Formulario(){
 
-    const[verCedula,guardarCedula]=useState("")
+    const[verUsuario,guardarUsuario]=useState("")
     const[verContraseña,guardarContraseña]=useState("")
 
     // Hook - es una variable de estado 
@@ -14,9 +18,29 @@ export function Formulario(){
     function procesarFormulario(evento){
         //que hago si le hacen clic al boton del formulario?
         evento.preventDefault()
-        
-        //voy a enrutar otro componente (¿Cómo lanzo un componente desde otro componente?)
-        enrutador("/home")
+
+        //buscamos coincidencias entre lo que escribe el usuario en el formulario y el json de la BD
+        //console.log(verCedula)
+        let busqueda=riesgosAsesor.find(function(funcionario){
+            return(funcionario.usuario==verUsuario && funcionario.contraseña==verContraseña)
+        })
+        //console.log(busqueda)
+        if (busqueda==undefined){
+            //error
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Algo salió mal!",
+                footer: '<a href="#">¿Has olvidado tu contraseña?</a>'
+              });
+        } else {
+            //voy a enrutar otro componente (¿Cómo lanzo un componente desde otro componente?)
+            enrutador("/home",{state:{usuario:busqueda}})
+        }
+
+
+    
+    
     } 
 
     return(
@@ -35,8 +59,8 @@ export function Formulario(){
                                     type="text" 
                                     class="form-control" 
                                     placeholder="Nombre de usuario"
-                                    id="identificacion"
-                                    onChange={function(evento){guardarCedula(evento.target.value)}}
+                                    id="usuario"
+                                    onChange={function(evento){guardarUsuario(evento.target.value)}}
                                 />
                             </div>
 
@@ -47,6 +71,7 @@ export function Formulario(){
                                     class="form-control" 
                                     placeholder="Contraseña"
                                     id="contraseña"
+                                    onChange={function(evento){guardarContraseña(evento.target.value)}}
                                 />
                             </div>
                             <div className="row mt-4">

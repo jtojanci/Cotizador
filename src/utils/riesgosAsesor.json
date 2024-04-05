@@ -1,0 +1,362 @@
+[  
+    {
+        "nombreUsuario": "Mario Andres Lopez Lopez",
+        "documento":"987654321",
+        "usuario":"malolo",
+        "contraseña":"agente987",
+        "departamento": "Antioquia",
+        "oficina": "Porvenir Seguros",
+        "riesgosCotizados": [
+        {
+            "Placa": "ABC123",
+            "Codigo":"05601177",
+            "Clase":"AUTOMOVIL",
+            "Marca":"MAZDA",
+            "Referencia1":"MIATA",
+            "Referencia2":"MX5 GRAND TOURING LX",
+            "Modelo":"2023",
+            "valorAsegurado":"216000000"
+        },
+        {
+            "Placa": "POI654",
+            "Codigo":"01606258",
+            "Clase":"CAMIONETA PASAJ.",
+            "Marca":"CHEVROLET",
+            "Referencia1":"TRACKER",
+            "Referencia2":"TURBO LS",
+            "Modelo":"2023",
+            "valorAsegurado":"91500000"
+        },
+        {
+            "Placa": "VBN987",
+            "Codigo":"8001206",
+            "Clase":"AUTOMOVIL",
+            "Marca":"RENAULT",
+            "Referencia1":"SANDERO",
+            "Referencia2":"LIFE +",
+            "Modelo":"2021",
+            "valorAsegurado":"49500000"
+        }
+        ]
+    },
+    {
+        "nombreUsuario": "Ana María Pérez",
+        "documento": "123456789",
+        "usuario":"anmape",
+        "contraseña": "segura123",
+        "departamento": "Bogotá",
+        "oficina": "Lo Asesoro",
+        "riesgosCotizados": [
+          {
+            "Placa": "XYZ789",
+            "Codigo": "03211456",
+            "Clase": "AUTOMOVIL",
+            "Marca": "TOYOTA",
+            "Referencia1": "COROLLA",
+            "Referencia2": "XSE",
+            "Modelo": "2022",
+            "valorAsegurado": "180000000"
+          },
+          {
+            "Placa": "QWE456",
+            "Codigo": "00232578",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "NISSAN",
+            "Referencia1": "FRONTIER",
+            "Referencia2": "LE",
+            "Modelo": "2023",
+            "valorAsegurado": "150000000"
+          },
+          {
+            "Placa": "ASD321",
+            "Codigo": "00547896",
+            "Clase": "AUTOMOVIL",
+            "Marca": "HONDA",
+            "Referencia1": "CIVIC",
+            "Referencia2": "TOURING",
+            "Modelo": "2023",
+            "valorAsegurado": "200000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Luisa Fernanda Ramírez",
+        "documento": "987654321",
+        "usuario":"lufera",
+        "contraseña": "segura456",
+        "departamento": "Valle del Cauca",
+        "oficina": "te acompaño",
+        "riesgosCotizados": [
+          {
+            "Placa": "MNB123",
+            "Codigo": "00987456",
+            "Clase": "AUTOMOVIL",
+            "Marca": "FORD",
+            "Referencia1": "ECOSPORT",
+            "Referencia2": "SE",
+            "Modelo": "2022",
+            "valorAsegurado": "120000000"
+          },
+          {
+            "Placa": "LKJ987",
+            "Codigo": "00123654",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "KIA",
+            "Referencia1": "SPORTAGE",
+            "Referencia2": "EX",
+            "Modelo": "2023",
+            "valorAsegurado": "160000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Carlos Alberto Gómez",
+        "documento": "135790246",
+        "usuario":"caalgo",
+        "contraseña": "segura789",
+        "departamento": "Atlántico",
+        "oficina": "Te protejo",
+        "riesgosCotizados": [
+          {
+            "Placa": "POI987",
+            "Codigo": "00321456",
+            "Clase": "AUTOMOVIL",
+            "Marca": "VOLKSWAGEN",
+            "Referencia1": "POLO",
+            "Referencia2": "HIGHLINE",
+            "Modelo": "2023",
+            "valorAsegurado": "140000000"
+          },
+          {
+            "Placa": "JKL654",
+            "Codigo": "00145789",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "HYUNDAI",
+            "Referencia1": "TUCSON",
+            "Referencia2": "GLS",
+            "Modelo": "2022",
+            "valorAsegurado": "175000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Juan Carlos Gómez",
+        "documento": "123456789",
+        "usuario":"jucago",
+        "contraseña": "clave123",
+        "departamento": "Cundinamarca",
+        "oficina": "Agencia la Ceiba",
+        "riesgosCotizados": [
+          {
+            "Placa": "DEF456",
+            "Codigo": "03214567",
+            "Clase": "AUTOMOVIL",
+            "Marca": "TOYOTA",
+            "Referencia1": "COROLLA",
+            "Referencia2": "XLE",
+            "Modelo": "2022",
+            "valorAsegurado": "185000000"
+          },
+          {
+            "Placa": "GHI789",
+            "Codigo": "01234567",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "NISSAN",
+            "Referencia1": "FRONTIER",
+            "Referencia2": "PRO-4X",
+            "Modelo": "2023",
+            "valorAsegurado": "155000000"
+          },
+          {
+            "Placa": "JKL123",
+            "Codigo": "09876543",
+            "Clase": "AUTOMOVIL",
+            "Marca": "HONDA",
+            "Referencia1": "CIVIC",
+            "Referencia2": "TOURING",
+            "Modelo": "2023",
+            "valorAsegurado": "205000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Laura Marcela Pérez",
+        "documento": "987654321",
+        "usuario":"lumape",
+        "contraseña": "segura456",
+        "departamento": "Valle del Cauca",
+        "oficina": "Agencia Seguros del Valle",
+        "riesgosCotizados": [
+          {
+            "Placa": "MNO456",
+            "Codigo": "07894561",
+            "Clase": "AUTOMOVIL",
+            "Marca": "FORD",
+            "Referencia1": "ECOSPORT",
+            "Referencia2": "SE",
+            "Modelo": "2022",
+            "valorAsegurado": "125000000"
+          },
+          {
+            "Placa": "PQR789",
+            "Codigo": "03456789",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "KIA",
+            "Referencia1": "SPORTAGE",
+            "Referencia2": "EX",
+            "Modelo": "2023",
+            "valorAsegurado": "165000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Pedro Pablo Ramírez",
+        "documento": "135790246",
+        "usuario":"pepara",
+        "contraseña": "clave789",
+        "departamento": "Atlántico",
+        "oficina": "Agencia del Mar",
+        "riesgosCotizados": [
+          {
+            "Placa": "STU987",
+            "Codigo": "05678912",
+            "Clase": "AUTOMOVIL",
+            "Marca": "VOLKSWAGEN",
+            "Referencia1": "POLO",
+            "Referencia2": "HIGHLINE",
+            "Modelo": "2023",
+            "valorAsegurado": "145000000"
+          },
+          {
+            "Placa": "VWX321",
+            "Codigo": "09871234",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "HYUNDAI",
+            "Referencia1": "TUCSON",
+            "Referencia2": "GLS",
+            "Modelo": "2022",
+            "valorAsegurado": "180000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "María Fernanda López",
+        "documento": "246801357",
+        "usuario":"mafelo",
+        "contraseña": "clave246",
+        "departamento": "Santander",
+        "oficina": "Agencia Santander Seguros",
+        "riesgosCotizados": [
+          {
+            "Placa": "ABC987",
+            "Codigo": "09876543",
+            "Clase": "AUTOMOVIL",
+            "Marca": "CHEVROLET",
+            "Referencia1": "SPARK",
+            "Referencia2": "GT",
+            "Modelo": "2023",
+            "valorAsegurado": "95000000"
+          },
+          {
+            "Placa": "DEF654",
+            "Codigo": "06543210",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "TOYOTA",
+            "Referencia1": "RAV4",
+            "Referencia2": "XLE",
+            "Modelo": "2022",
+            "valorAsegurado": "170000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Santiago Gómez",
+        "documento": "987123654",
+        "usuario":"sangom",
+        "contraseña": "segura789",
+        "departamento": "Meta",
+        "oficina": "Agencia Seguros del Llano",
+        "riesgosCotizados": [
+          {
+            "Placa": "GHI123",
+            "Codigo": "78901234",
+            "Clase": "AUTOMOVIL",
+            "Marca": "HONDA",
+            "Referencia1": "CR-V",
+            "Referencia2": "EXL",
+            "Modelo": "2022",
+            "valorAsegurado": "200000000"
+          },
+          {
+            "Placa": "JKL456",
+            "Codigo": "43210987",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "NISSAN",
+            "Referencia1": "MURANO",
+            "Referencia2": "SL",
+            "Modelo": "2023",
+            "valorAsegurado": "185000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Gabriela Martínez",
+        "documento": "369258147",
+        "usuario":"gabmar",
+        "contraseña": "clave369",
+        "departamento": "Tolima",
+        "oficina": "Agencia Seguros Tolima",
+        "riesgosCotizados": [
+          {
+            "Placa": "MNO123",
+            "Codigo": "56789012",
+            "Clase": "AUTOMOVIL",
+            "Marca": "TOYOTA",
+            "Referencia1": "HILUX",
+            "Referencia2": "SRV",
+            "Modelo": "2023",
+            "valorAsegurado": "220000000"
+          },
+          {
+            "Placa": "PQR456",
+            "Codigo": "32109876",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "CHEVROLET",
+            "Referencia1": "CAPTIVA",
+            "Referencia2": "LTZ",
+            "Modelo": "2022",
+            "valorAsegurado": "195000000"
+          }
+        ]
+      },
+      {
+        "nombreUsuario": "Andrés Felipe Ramírez",
+        "documento": "951357468",
+        "usuario":"anfera",
+        "contraseña": "segura159",
+        "departamento": "Nariño",
+        "oficina": "Agencia Seguros Nariño",
+        "riesgosCotizados": [
+          {
+            "Placa": "STU123",
+            "Codigo": "78901234",
+            "Clase": "AUTOMOVIL",
+            "Marca": "MAZDA",
+            "Referencia1": "CX-5",
+            "Referencia2": "GRAND TOURING",
+            "Modelo": "2022",
+            "valorAsegurado": "190000000"
+          },
+          {
+            "Placa": "VWX456",
+            "Codigo": "54321098",
+            "Clase": "CAMIONETA PASAJ.",
+            "Marca": "KIA",
+            "Referencia1": "SOUL",
+            "Referencia2": "EX",
+            "Modelo": "2023",
+            "valorAsegurado": "175000000"
+          }
+        ]
+      }
+]
